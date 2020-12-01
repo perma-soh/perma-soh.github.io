@@ -172,6 +172,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1080,7 +1081,9 @@ input, select, textarea {
 		.button.primary {
 			background-color: #ffffff;
 			color: #1b1f22 !important;
-			font-weight: 600;
+			font-weight: 800;
+			position: relative;
+			left: 332%;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
